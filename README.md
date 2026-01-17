@@ -7,3 +7,4 @@ As I progressed, I moved on to CSS, where I learned how to style and design web 
 Through practice and experimentation, I started combining HTML and CSS to build complete web pages. I focused on writing clean, well-structured code and following best practices to improve readability and maintainability. Each project helped me gain confidence and sharpen my problem-solving skills.
 
 Overall, learning HTML and CSS has given me a strong foundation in web development. It has helped me understand how websites are built from scratch and has motivated me to continue learning advanced web technologies to create more interactive and dynamic websites in the future.
+https://www.youtube.com/watch?v=G3e-cpL7ofc&t=2680s
