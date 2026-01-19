@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MeTube.com</title>
+        <style>
+            p{
+                font-family: Arial, sans-serif;
+            }
+            .thumbnail {
+                width: 300px;
+                height: auto;
+                border-radius: 12px;
+                text-align: center;
+                display: block;
+            }
+            .search-bar {
+                width: 300px;
+                font-size: 20px;
+                margin-left: 12px;
+                transition: box-shadow 0.3s ease, border 0.3s ease;
+                border-radius: 12px;
+                padding: 8px;
+            }
+            .search-bar:hover {
+                cursor: pointer;
+                box-shadow: 0px 0px 8px grey;
+            }
+            .search-button {
+                font-size: 16px;
+                padding: 8px;
+                border-radius: 12px;
+                margin-left: 8px;
+            }
+            .search-button:hover {
+                cursor: pointer;
+                box-shadow: 0px 0px 8px grey;
+            }
+            .search-button:active {
+                box-shadow: inset 0px 0px 8px grey;
+            }
+            .video-title {
+                font-size: 20px;
+                width: 300px;
+            }
+            .video-channel{
+                display: block;
+            }
+            .video-stats {
+                display: block;
+            }
+            .video-preview {
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <input class="search-bar" type="text" placeholder="Type here">
+        <button class="search-button">&#128269</button>
+        <div class="video-preview">
+             <img class="thumbnail" src="Thumbnails/thumbnail-1 (1).webp">
+
+        <p class="video-title">My interview with Sundar Pichai</p>
+        <p class="video-channel">Marques Brownlee </p>
+        <p class="video-stats">1.2M views &#183; 5 years ago</p>
+        </div>
+    </body>
+</html>
