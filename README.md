@@ -1,4 +1,4 @@
-My Learning Journey in HTML and CSS
+My Learning Journey in HTML and CSS &#9992;
 
 My learning journey in HTML and CSS has been both exciting and rewarding. I began by understanding the fundamentals of HTML, learning how to structure web pages using elements such as headings, paragraphs, lists, links, images, and forms. This helped me realize how HTML acts as the backbone of a website by organizing content in a meaningful and accessible way.
 
