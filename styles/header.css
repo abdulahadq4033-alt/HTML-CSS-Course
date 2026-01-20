@@ -3,20 +3,126 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(202, 202, 202);
+        z-index: 1000;
         }
         .left-section{
-            width: 150px;
-            background-color: lightgray;
             margin-right: 100px;
+            display: flex;
+            align-items: center;
+        }
+        .hamburger-menu{
+            height: 24px;
+            margin-left: 24px;
+            margin-right: 24px;
+        }
+        .youtube-logo{
+            
+            height: 20px;
         }
         .middle-section{
             text-align: center;
             flex: 1;
-            background-color: black;
             max-width: 510px;
+            display: flex;
+            align-items: center;
+        }
+        .search-bar::placeholder{
+            font-family: Roboto , Arial;
+            font-size: 16px;
+        }
+        .search-bar{
+            flex: 1;
+            height: 38px;
+            border: 1px solid gray;
+            border-radius: 2px;
+            padding-left: 10px;
+            font-size: 16px;
+            border-top-right-radius: 0;
+            box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+        }
+        .search-button{
+            height: 40px;
+            width: 65px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(192, 192, 192);
+            margin-left: -1px;
+            margin-right: 8px;
+        }
+        .search-button:hover{
+            background-color: rgb(240, 240, 240);
+            cursor: pointer;
+        }
+        .search-button:active{
+            background-color: rgb(200, 200, 200);
+        }
+        .search-icon{
+            height: 25px;
+            margin-top: 4px;
+        }
+        .voice-search-button{
+            height: 40px;
+            width: 40px;
+            border-radius: 30px;
+            margin-top: 2px;
+            border: 2px solid white;
+        }
+        .voice-search-button:hover{
+            background-color: rgb(240, 240, 240);
+            cursor: pointer;
+        }
+        .voice-search-button:active{
+            background-color: rgb(200, 200, 200);
+        }
+        .voice-search-icon{
+            height: 25px;
+            margin-top: 6px;
         }
         .right-section{
-            background-color: lightgray;
-            width: 200px;
+            width: 180px;
             margin-left: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-right: 24px;
+            flex-shrink: 0;
+        }
+        .create-icon{
+            height: 24px;
+        }
+        .app-icon{
+            height: 24px;
+        }
+        .notifications-icon{
+            height: 24px;
+        }
+        .notifications-icon-container{
+            position: relative;
+        }
+        .notification-badge{
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            width: 16px;
+            height: 16px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .profile-icon{
+            height: 32px;
+            border-radius: 16px;
         }
