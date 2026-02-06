@@ -1,65 +1,125 @@
-# Frontend Development – Learning Journey
+# Web Development (Full Stack Developer) Journey
 
 ## 📌 Overview
 
-This README documents what I have achieved so far in my frontend development journey and clearly outlines what I aim to learn next. It serves as a roadmap to track my progress and keep my learning structured and goal-oriented.
+This document represents my **Full Stack Web Development learning journey**. It combines both **frontend** and **backend** roadmaps, clearly showing what I have achieved so far and what I aim to learn in the future. This README will be updated as I grow and gain hands-on experience.
 
 ---
 
 ## ✅ What I Have Achieved So Far
 
-So far, I have focused on building a **strong foundation in the core building blocks of the web**.
+### 🌐 Frontend Development
 
-### 🔹 HTML
+#### HTML
 
 * Learned how to structure web pages using HTML
-* Understood semantic tags and their importance
+* Understood semantic tags and proper document structure
 * Built basic web page layouts
 
-### 🔹 CSS
+#### CSS
 
 * Learned how to style web pages using CSS
 * Worked with colors, fonts, spacing, and layouts
-* Understood the role of CSS in making websites visually appealing
+* Understood how CSS improves user experience and design
 
-At this stage, my knowledge is limited to **HTML and CSS**, and I am intentionally building a strong base before moving forward.
+➡️ **Current status:** I have achieved a foundational understanding of **HTML and CSS**.
+
+---
+
+## 🧠 Understanding Full Stack Development
+
+A **Full Stack Developer** works on both:
+
+* **Frontend** – What users see and interact with
+* **Backend** – Server logic, databases, and APIs
+
+Full stack development involves connecting the frontend with the backend to build complete, functional, and scalable web applications.
 
 ---
 
 ## 🚀 What I Plan to Learn Next
 
-After gaining confidence in HTML and CSS, I plan to gradually expand my skills into more advanced frontend and development tools.
+## 🔹 Frontend Roadmap
 
-My future learning goals are structured step-by-step to build strong frontend expertise:
+### Core Technologies
 
-1. **HTML** – Deepen understanding of semantic markup and accessibility
-2. **CSS** – Advanced layouts, responsiveness, and animations
+1. **HTML** – Advanced semantics and accessibility
+2. **CSS** – Responsive design, Flexbox, Grid, and animations
 3. **JavaScript** – Core concepts, DOM manipulation, and async programming
-4. **Git** – Version control and collaboration workflows
-5. **TypeScript** – Writing scalable and maintainable JavaScript
-6. **React** – Building dynamic and component-based user interfaces
-7. **SASS** – Writing cleaner and more maintainable styles
-8. **Tailwind CSS** – Utility-first styling for modern projects
-9. **Automated Testing** – Writing tests to ensure code reliability
-10. **Next.js** – Building production-ready, full-stack React applications
+
+### Advanced Frontend Tools
+
+* **TypeScript** – Safer and scalable JavaScript
+* **React** – UI toolkit for building component-based interfaces
+* **SASS** – CSS preprocessor for maintainable styles
+* **Tailwind CSS** – Utility-first CSS framework
+
+### Testing & Frameworks
+
+* **Automated Testing** – Jest, Vitest
+* **Meta-Frameworks** – Next.js (primary), Remix
 
 ---
 
-## 📚 References:
-1. https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w
-2. https://www.youtube.com/watch?v=G3e-cpL7ofc
-3. https://www.youtube.com/watch?v=EerdGm-ehJQ&t=191s
-4. https://supersimpledev.github.io/references/html-css-reference.pdf
-5. https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/YouTube/The%20Ultimate%20HTML%20handbook.pdf
-6. https://www.w3schools.com/cssref/pr_font_font-style.php
+## 🔹 Backend Roadmap
 
+### Programming Languages
+
+**Primary Backend Stack:**
+
+* **JavaScript (Node.js)**
+* **TypeScript**
+
+**Future Language Goals:**
+
+* **Python** – Backend development, APIs, automation
+* **Java** – Enterprise-level backend systems
+* **C++** – Performance-oriented and system-level understanding
+
+### Backend Frameworks
+
+* **Express.js** – Lightweight Node.js framework
+* **NestJS** – Scalable and structured backend framework (future)
+
+### Databases
+
+* SQL: PostgreSQL / MySQL
+* NoSQL: MongoDB
+* Database design and relationships
+
+### APIs & Server Concepts
+
+* RESTful APIs
+* HTTP methods and request/response lifecycle
+* JSON data handling
+
+### Authentication & Security
+
+* User authentication and authorization
+* Password hashing
+* JWT (JSON Web Tokens)
+
+### Tools & Practices
+
+* **Git** – Version control
+* Environment variables
+* Basic deployment concepts
+
+### Backend Testing
+
+* Unit testing
+* Integration testing
 
 ---
 
-## 🎯 Goal
+## 🎯 Final Goal
 
-By following this roadmap, my goal is to become a **modern frontend developer** capable of building scalable, performant, and user-friendly web applications using industry-standard tools and best practices.
+By following this roadmap, my goal is to become a **Full Stack Web Developer** who can:
+
+* Build responsive and interactive frontends
+* Design secure and scalable backends
+* Connect frontend and backend seamlessly
+* Understand modern web development best practices
 
 ---
 
-*This README will be updated as I progress further in my learning journey.*
