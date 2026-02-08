@@ -11,3 +11,4 @@ Overall, learning HTML and CSS has given me a strong foundation in web developme
 References:
 https://www.youtube.com/watch?v=G3e-cpL7ofc&t=2680s
 https://www.codewithharry.com/tutorial/html-home
+https://web.dev/articles/lcp
