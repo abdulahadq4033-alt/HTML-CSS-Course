@@ -9,6 +9,8 @@ Through practice and experimentation, I started combining HTML and CSS to build 
 Overall, learning HTML and CSS has given me a strong foundation in web development. It has helped me understand how websites are built from scratch and has motivated me to continue learning advanced web technologies to create more interactive and dynamic websites in the future.
 
 References:
-https://www.youtube.com/watch?v=G3e-cpL7ofc&t=2680s
-https://www.codewithharry.com/tutorial/html-home
-https://web.dev/articles/lcp
+* https://www.youtube.com/watch?v=G3e-cpL7ofc&t=2680s
+* https://www.codewithharry.com/tutorial/html-home
+* https://web.dev/articles/lcp
+  
+
