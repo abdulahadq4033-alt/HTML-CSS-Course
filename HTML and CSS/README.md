@@ -12,5 +12,8 @@ References:
 * https://www.youtube.com/watch?v=G3e-cpL7ofc&t=2680s
 * https://www.codewithharry.com/tutorial/html-home
 * https://web.dev/articles/lcp
+* https://web.dev/articles/inp
+* https://web.dev/articles/cls
+* https://web.dev/articles/fid [No longer a core web vital]
   
 
