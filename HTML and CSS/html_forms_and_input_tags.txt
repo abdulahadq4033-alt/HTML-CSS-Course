@@ -1,0 +1,175 @@
+HTML FORMS AND INPUT TAGS – EXPLANATION GUIDE
+
+  1.
+  ----------------------------------------------------------------------
+  The
+  It acts as a container for input elements like text fields, buttons,
+  checkboxes, radio buttons, etc.
+
+Common attributes: - action: URL where the form data is sent - method:
+HTTP method (GET or POST) - enctype: Encoding type (used for file
+uploads) - target: Where to display the response
+
+Example:
+2.  TAG
+
+The tag is the most important form element. It is a void (self-closing)
+element and its behavior depends on the ‘type’ attribute.
+
+INPUT TYPES
+
+1. type=“text”
+
+Creates a single-line text field. Used for names, usernames, etc.
+
+2. type=“password”
+
+Hides the characters entered. Used for passwords.
+
+3. type=“email”
+
+Accepts email addresses. Browser validates email format automatically.
+
+4. type=“number”
+
+Accepts numeric values only. Attributes: min, max, step.
+
+5. type=“tel”
+
+Used for phone numbers. Does not enforce validation by default.
+
+6. type=“url”
+
+Accepts web addresses. Validates URL format.
+
+7. type=“search”
+
+Used for search fields. May appear styled differently by browsers.
+
+8. type=“date”
+
+Allows date selection using a date picker.
+
+9. type=“time”
+
+Allows time selection.
+
+10. type=“datetime-local”
+
+Allows date and time selection (no timezone).
+
+11. type=“month”
+
+Allows month and year selection.
+
+12. type=“week”
+
+Allows week selection.
+
+13. type=“radio”
+
+Used to select one option from a group. Radio buttons with the same
+‘name’ belong together.
+
+14. type=“checkbox”
+
+Allows multiple selections.
+
+15. type=“file”
+
+Used to upload files. Attribute: accept (file type filter)
+
+16. type=“range”
+
+Creates a slider. Attributes: min, max, step.
+
+17. type=“color”
+
+Opens a color picker.
+
+18. type=“hidden”
+
+Stores hidden data sent to the server.
+
+19. type=“submit”
+
+Submits the form data.
+
+20. type=“reset”
+
+Resets all form fields to default values.
+
+21. type=“button”
+
+Creates a clickable button (no default action).
+
+22. type=“image”
+
+Submits form using an image as a button.
+
+OTHER FORM ELEMENTS
+
+1. 
+
+Associates text with a form control. Improves accessibility.
+
+  2.
+  ------------------------------------
+  Used for multi-line text input.
+  Attributes: rows, cols, maxlength.
+
+3. 
+
+Creates a dropdown list.
+
+4. 
+
+Defines options inside a .
+
+5. 
+
+Groups related options inside a dropdown.
+
+6. 
+
+Creates a clickable button. Types: submit, reset, button.
+
+  7.
+  -------------------------------
+  Groups related form elements.
+
+8. 
+
+Provides a caption for a fieldset.
+
+9. 
+
+Provides predefined options for input fields.
+
+  10.
+  ---------------------------------------
+  Displays the result of a calculation.
+
+11. 
+
+Shows progress of a task.
+
+12. 
+
+Displays a scalar measurement within a range.
+
+COMMON INPUT ATTRIBUTES
+
+-   name: Identifies form data
+-   value: Default value
+-   placeholder: Hint text
+-   required: Makes field mandatory
+-   readonly: Read-only field
+-   disabled: Disables input
+-   autofocus: Focuses input on page load
+-   maxlength: Maximum characters
+-   minlength: Minimum characters
+-   pattern: Regex validation
+-   autocomplete: Enables/disables auto-fill
+
+END OF FILE

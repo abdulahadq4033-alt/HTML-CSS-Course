@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styled SVG Drawing</title>
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f5f5f5;
+      margin: 0;
+    }
+
+    svg {
+      background: white;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+
+    .outline {
+      fill: none;
+      stroke: #000;
+      stroke-width: 4;
+      transition: stroke 0.3s ease;
+    }
+
+    .eye {
+      fill: #000;
+      transition: fill 0.3s ease;
+    }
+
+    /* Hover effect */
+    svg:hover .outline {
+      stroke: #0077ff;
+    }
+
+    svg:hover .eye {
+      fill: red;
+    }
+  </style>
+</head>
+
+<body>
+
+<svg width="500" height="300" viewBox="0 0 500 300"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <polygon
+    class="outline"
+    points="50,60 260,60 260,130 45,135" />
+
+  <!-- Eye -->
+  <circle
+    class="eye"
+    cx="220"
+    cy="90"
+    r="8" />
+
+  <!-- Beak -->
+  <polyline
+    class="outline"
+    points="80,100 190,120 120,135"
+    stroke-linecap="round"
+    stroke-linejoin="round" />
+
+  <!-- Neck -->
+  <rect
+    class="outline"
+    x="130"
+    y="135"
+    width="40"
+    height="70" />
+
+  <!-- Rectangle on right -->
+  <rect
+    class="outline"
+    x="310"
+    y="50"
+    width="120"
+    height="140" />
+
+</svg>
+
+</body>
+</html>

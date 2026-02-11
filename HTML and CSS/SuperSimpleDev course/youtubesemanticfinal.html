@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="Menu">
+
+            <a href="https://www.youtube.com" target="_blank">
+                <img class="youtube-logo" src="icons/youtube-logo.svg" alt="YouTube">
+            </a>
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg" alt="Search">
+                <span class="tooltip">Search</span>
+            </button>
+
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="Voice Search">
+                <span class="tooltip">Search with your voice</span>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="create-icon" src="icons/upload.svg" alt="Create">
+                <span class="tooltip">Create</span>
+            </div>
+
+            <div class="app-icon-container">
+                <img class="app-icon" src="icons/youtube-apps.svg" alt="Apps">
+                <span class="tooltip">YouTube apps</span>
+            </div>
+
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="Notifications">
+                <span class="notification-badge">3</span>
+                <span class="tooltip">Notifications</span>
+            </div>
+
+            <img class="profile-icon" src="channel-photos/channels4_profile.jpg" alt="Profile">
+        </div>
+    </header>
+
+    <!-- SIDEBAR -->
+    <nav class="sidebar">
+        <a class="sidebar-link">
+            <img src="icons/home.svg" alt="">
+            <span>Home</span>
+        </a>
+        <a class="sidebar-link">
+            <img src="icons/explore.svg" alt="">
+            <span>Explore</span>
+        </a>
+        <a class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="">
+            <span>Subscriptions</span>
+        </a>
+        <a class="sidebar-link">
+            <img src="icons/originals.svg" alt="">
+            <span>Originals</span>
+        </a>
+        <a class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="">
+            <span>YouTube Music</span>
+        </a>
+        <a class="sidebar-link">
+            <img src="icons/library.svg" alt="">
+            <span>Library</span>
+        </a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="video-grid">
+
+            <!-- VIDEO CARD -->
+            <article class="video-preview">
+                <figure class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" target="_blank">
+                        <img class="thumbnail" src="Thumbnails/thumbnail-1 (1).webp" alt="Video thumbnail">
+                    </a>
+                    <span class="video-time">12:34</span>
+                </figure>
+
+                <div class="video-info-grid">
+                    <div class="channel-photo">
+                        <img class="profile-pic" src="channel-photos/channel-1.jpeg" alt="Channel">
+                    </div>
+
+                    <div class="video-info">
+                        <h3 class="video-title">My interview with Sundar Pichai</h3>
+                        <p class="video-channel">Marques Brownlee</p>
+                        <p class="video-stats">1.2M views &#183; 5 years ago</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Repeat <article class="video-preview"> for other videos -->
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

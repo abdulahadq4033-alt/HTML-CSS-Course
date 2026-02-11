@@ -1,0 +1,171 @@
+SEO AND CORE WEB VITALS IN HTML – EXPLANATION GUIDE
+
+PART 1: SEO (SEARCH ENGINE OPTIMIZATION)
+
+SEO helps websites rank better on search engines like Google. HTML plays
+a very important role in on-page SEO.
+
+  1.
+  ----------------------------------------------------
+  Defines the title of the webpage.
+  Appears in browser tabs and search engine results.
+
+Best practices: - Keep it under 60 characters - Include main keyword -
+Each page should have a unique title
+
+2.  TAGS FOR SEO
+
+a) Meta Description
+
+Provides a short summary of the page. Appears in search results.
+
+Example:
+Best practices: - 150–160 characters - Clear and keyword-relevant
+
+b) Meta Keywords (Deprecated)
+
+Not used by modern search engines. Avoid using it.
+
+c) Meta Robots
+
+Controls how search engines crawl a page.
+
+Example:
+  3. HEADING TAGS (
+  -----------------------------------
+  Used to define content hierarchy.
+
+Best practices: - Use only one
+per page - Use headings in proper order - Include keywords naturally
+
+4. SEMANTIC HTML TAGS
+
+Semantic tags help search engines understand content meaning.
+
+Important tags: -
+-   
+
+-   
+
+-   
+
+-   
+
+-   
+
+-   
+
+Using semantic tags improves accessibility and SEO.
+
+5. IMAGE SEO ()
+
+Images should be optimized for SEO.
+
+Important attributes: - alt: Describes the image - title: Optional
+tooltip text
+
+Example:
+
+Best practices: - Always use meaningful alt text - Compress images
+
+6. ANCHOR TAG ()
+
+Used for internal and external linking.
+
+Best practices: - Use descriptive anchor text - Avoid “click here” - Use
+proper href links
+
+7. URL STRUCTURE
+
+Clean URLs improve SEO.
+
+Good URL: example.com/html-seo-guide
+
+Bad URL: example.com/page?id=123
+
+8. MOBILE FRIENDLY META TAG
+
+This is essential for mobile SEO.
+
+9. CANONICAL TAG
+
+Prevents duplicate content issues.
+
+Example:
+
+10. OPEN GRAPH TAGS (Social SEO)
+
+Used when sharing links on social media.
+
+Example:
+PART 2: CORE WEB VITALS
+
+Core Web Vitals are performance metrics defined by Google to measure
+real user experience.
+
+1. LCP (Largest Contentful Paint)
+
+Measures loading performance. Time taken to load the largest visible
+content.
+
+Good score: - Under 2.5 seconds
+
+HTML optimization tips: - Use optimized images - Use with width and
+height - Avoid render-blocking resources
+
+2. FID (First Input Delay)
+
+Measures interactivity. Time between user interaction and browser
+response.
+
+Good score: - Under 100 milliseconds
+
+HTML/JS optimization tips: - Reduce heavy JavaScript - Use defer or
+async for scripts
+
+Example:
+3. CLS (Cumulative Layout Shift)
+
+Measures visual stability. Unexpected layout movement while loading.
+
+Good score: - Less than 0.1
+
+HTML optimization tips: - Always define image dimensions - Reserve space
+for ads - Avoid inserting elements dynamically at top
+
+4. PERFORMANCE-RELATED HTML BEST PRACTICES
+
+a) Use async and defer
+
+Prevents blocking page rendering.
+
+b) Preload important resources
+
+c) Use proper font loading
+
+5. ACCESSIBILITY AND SEO
+
+Accessibility improves SEO indirectly.
+
+HTML practices: - Use for inputs - Use semantic tags - Use alt text for
+images
+
+6. LIGHTWEIGHT HTML STRUCTURE
+
+-   Avoid unnecessary divs
+-   Use clean, readable markup
+-   Minimize inline styles
+
+7. HTTPS AND SECURITY
+
+HTTPS is a ranking factor. Use secure connections.
+
+SUMMARY
+
+SEO focuses on content structure, metadata, and semantics. Core Web
+Vitals focus on speed, interactivity, and stability.
+
+Clean, semantic, and optimized HTML improves both SEO and Core Web
+Vitals significantly.
+
+END OF FILE

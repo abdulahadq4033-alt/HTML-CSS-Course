@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Details Form</title>
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
+    <svg> 
+        <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color: #ff7e5f; stop-opacity: 1" />
+                <stop offset="100%" style="stop-color: #feb47b; stop-opacity: 1" />
+            </linearGradient>
+        </defs>
+        <rect width="100%" height="150" fill="url(#gradient)" />
+    </svg>
+    <div>
+        <h1>Student Details Form</h1>
+    </div>
+
     <form action="get_details.php" method="POST">
-        <input class="details" type="text" name="name" placeholder="Enter your name" required><br>
-        <input class="details" type="email" name="email" placeholder="Enter your email" required><br>
-        <input class="details" type="number" name="age" placeholder="Enter your age" required><br>
-        <input class="submit" type="submit" value="Submit">
+        <div class="container">
+
+            <label for="name">Name:</label><br>
+            <input class="details" type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input class="details" type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="age">Age:</label><br>
+            <input class="details" type="number" id="age" name="age" placeholder="Enter your age" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and conditions</label><br><br>
+
+            <label for="comment">Comment:</label><br>
+            <textarea id="comment" name="comment" rows="5" cols="30" placeholder="Comment here"></textarea><br><br>
+
+            <input class="submit" type="submit" value="Submit">
+            <label for="options" style="margin-bottom:2px">Choose an action:</label><br>
+            <select name="options" id="options">
+                <option value="">--Select--</option>
+                <option value="reset">Reset Form</option>
+                <option value="clear">Clear Fields</option>
+            </select>
+
     </form>
+
 </body>
+
 </html>
