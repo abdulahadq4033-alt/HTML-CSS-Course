@@ -9,3 +9,4 @@ if (age >= 18) {
 else {
     console.log("You are a child.");
 }
+
