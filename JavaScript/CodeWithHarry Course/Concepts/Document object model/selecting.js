@@ -1,0 +1,10 @@
+let c= document.getElementsByClassName("box");
+console.log(c);
+let d= document.getElementsByTagName("div");
+console.log(d);
+let e= document.getElementById("main");
+console.log(e);
+let f= document.querySelector(".box");
+console.log(f);
+let g= document.querySelectorAll(".box");
+console.log(g);
