@@ -1,0 +1,87 @@
+JAVASCRIPT EVENTS - COMPLETE NOTES
+
+1.  WHAT IS AN EVENT? An event is an action or occurrence that happens
+    in the browser and can be detected by JavaScript.
+
+Examples: - Clicking a button - Pressing a key - Scrolling a page - Page
+loading
+
+2.  TYPES OF EVENTS
+
+A)  Mouse Events:
+
+-   click: when an element is clicked
+-   dblclick: double click
+-   mouseover: when mouse enters element
+-   mouseout: when mouse leaves element
+
+B)  Keyboard Events:
+
+-   keydown: key is pressed
+-   keyup: key is released
+
+C)  Form Events:
+
+-   submit: form is submitted
+-   change: input value changes
+-   focus: element is selected
+
+D)  Window Events:
+
+-   load: page fully loads
+-   resize: window size changes
+-   scroll: page is scrolled
+
+3.  HOW TO USE EVENTS
+
+A)  Inline HTML (Not Recommended) Click
+
+B)  Using JavaScript (Best Practice) let btn =
+    document.querySelector(“button”);
+
+btn.addEventListener(“click”, function() { alert(“Button clicked!”); });
+
+4.  EVENT LISTENER SYNTAX element.addEventListener(“event”, function);
+
+-   element: HTML element
+-   event: type of event (e.g., click)
+-   function: code to execute
+
+5.  EXAMPLE PROGRAM
+
+HTML: Click Me
+Hello
+JavaScript: let btn = document.getElementById(“btn”); let text =
+document.getElementById(“text”);
+
+btn.addEventListener(“click”, function() { text.innerText = “You clicked
+the button!”; });
+
+6.  EVENT OBJECT When an event occurs, JavaScript creates an event
+    object with details.
+
+Example: document.addEventListener(“click”, function(event) {
+console.log(event.target); });
+
+7.  EVENT PROPAGATION
+
+Two phases: - Bubbling (default): inner element → outer element -
+Capturing: outer element → inner element
+
+Example: element.addEventListener(“click”, function() {
+console.log(“Clicked!”); }, true);
+
+(true means capturing phase)
+
+8.  REMOVING EVENT LISTENER
+
+function sayHi() { console.log(“Hi”); }
+
+btn.addEventListener(“click”, sayHi); btn.removeEventListener(“click”,
+sayHi);
+
+9.  SUMMARY
+
+-   Events are actions detected by JavaScript
+-   Used to make web pages interactive
+-   addEventListener() is the best way to handle events
