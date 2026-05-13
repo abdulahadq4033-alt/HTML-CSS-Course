@@ -1,0 +1,7 @@
+.box{
+    background-color: red;
+    color: blue;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
