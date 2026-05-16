@@ -1,0 +1,151 @@
+PROTOTYPES AND PROTOTYPAL INHERITANCE IN JAVASCRIPT
+
+--------------------------------------------------
+1. WHAT IS A PROTOTYPE?
+--------------------------------------------------
+
+In JavaScript, every object has a hidden internal property called a prototype.
+
+A prototype is another object from which properties and methods can be inherited.
+
+When JavaScript cannot find a property or method inside an object, it searches in the object's prototype.
+
+--------------------------------------------------
+2. SIMPLE EXAMPLE
+--------------------------------------------------
+
+const animal = {
+  eats: true
+};
+
+const dog = {
+  bark() {
+    console.log("Woof!");
+  }
+};
+
+Object.setPrototypeOf(dog, animal);
+
+console.log(dog.eats);
+
+Explanation:
+- dog does not contain the property 'eats'
+- JavaScript searches in animal
+- The property is inherited through the prototype chain
+
+--------------------------------------------------
+3. PROTOTYPE CHAIN
+--------------------------------------------------
+
+Objects can inherit from other objects.
+
+Example chain:
+
+dog -> animal -> Object.prototype -> null
+
+JavaScript searches upward in this chain until:
+1. The property is found
+2. The chain ends with null
+
+--------------------------------------------------
+4. CONSTRUCTOR FUNCTIONS
+--------------------------------------------------
+
+Before ES6 classes, constructor functions were commonly used.
+
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.sayHello = function () {
+  console.log("Hello " + this.name);
+};
+
+const user = new Person("John");
+
+user.sayHello();
+
+Explanation:
+- user inherits from Person.prototype
+- sayHello() is shared among all objects created using Person
+
+--------------------------------------------------
+5. WHAT IS PROTOTYPAL INHERITANCE?
+--------------------------------------------------
+
+Prototypal inheritance is the mechanism by which JavaScript objects inherit properties and methods from other objects through prototypes.
+
+It enables:
+- Code reuse
+- Shared methods
+- Dynamic inheritance
+
+--------------------------------------------------
+6. OBJECT.CREATE()
+--------------------------------------------------
+
+Object.create() creates a new object using another object as its prototype.
+
+const parent = {
+  greet() {
+    console.log("Hello");
+  }
+};
+
+const child = Object.create(parent);
+
+child.greet();
+
+Explanation:
+- child inherits greet() from parent
+
+--------------------------------------------------
+7. ES6 CLASSES
+--------------------------------------------------
+
+JavaScript classes are built on top of prototypes.
+
+class Animal {
+  eat() {
+    console.log("Eating");
+  }
+}
+
+class Dog extends Animal {
+  bark() {
+    console.log("Woof");
+  }
+}
+
+const d = new Dog();
+
+d.eat();
+d.bark();
+
+Even though this looks like class-based inheritance, JavaScript internally still uses prototypes.
+
+--------------------------------------------------
+8. ADVANTAGES
+--------------------------------------------------
+
+- Memory efficient
+- Shared methods
+- Flexible inheritance
+- Dynamic object behavior
+
+--------------------------------------------------
+9. DISADVANTAGES
+--------------------------------------------------
+
+- Prototype chains can become confusing
+- Harder to debug sometimes
+- 'this' keyword behavior can be tricky
+
+--------------------------------------------------
+10. SUMMARY
+--------------------------------------------------
+
+- Every object in JavaScript has a prototype
+- Objects inherit from other objects
+- Inheritance works through the prototype chain
+- ES6 classes are syntactic sugar over prototypes
