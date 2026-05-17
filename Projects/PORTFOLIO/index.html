@@ -11,9 +11,9 @@
 
 <body>
     <!-- LOADER -->
-    <!-- <div id="loading-screen">
+    <div id="loading-screen">
         <h1 class="loader-text">AAQ</h1>
-    </div> -->
+    </div>
     <!-- Navigation bar -->
     <header>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank">
@@ -21,44 +21,83 @@
         </a>
         <nav class="navigationbar">
             <ul>
-                <li class="nav-icons active"><a href="#Home">Home</a></li>
-                <li class="nav-icons"><a href="#projects">Projects</a></li>
-                <li class="nav-icons"><a href="#skills">Skills</a></li>
-                <li class="nav-icons"><a href="#contact">Contact</a></li>
+                <li class="nav-icons"><a href="#" onclick="showTab('Home')" class="active" >Home</a></li>
+                <li class="nav-icons"><a href="#" onclick="showTab('projects')">Projects</a></li>
+                <li class="nav-icons"><a href="#" onclick="showTab('skills')">Skills</a></li>
+                <li class="nav-icons"><a href="#" onclick="showTab('contact')">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- HOME TAB -->
-    <div class="tab active">
+    <div id="Home" class="tab active">
         <main class="banner">
             <div class="typing-text">
                 <span></span>
             </div>
         </main>
-    </div>
-    <div class="home-info">
-        <div class="main-section">
-            <span>Hey &#128075;</span>
-            <div>My name is Abdul Ahad Quraishi</div>
-            <p>I am an 18-year-old Computer Science undergraduate specializing in Artificial Intelligence and Machine
-                Learning at Vidya Jyothi Institute of Technology.
-                I am passionate about technology, problem-solving, and continuous learning, with a strong interest in
-                AI, Machine Learning, and Full Stack Development.
-                Along with my academic learning, I actively build projects and improve my technical skills through
-                hands-on practice.
-                I have foundational knowledge in frontend development using HTML, CSS, and JavaScript, and I also work
-                with Python, C, and Arduino.
-                I enjoy participating in hackathons, technical events, and collaborative projects that help me gain
-                practical experience and grow as a developer.
-                Beyond technology, I enjoy reading, writing, chess, football, music, and films.
-                I believe in learning with intent, building with consistency, and growing with purpose.
+        <div class="home-info">
+            <div class="main-section">
+                <span>Hey &#128075;</span>
+                <div>My name is Abdul Ahad Quraishi</div>
+                <p>I am an 18-year-old Computer Science undergraduate specializing in Artificial Intelligence and
+                    Machine
+                    Learning at Vidya Jyothi Institute of Technology.
+                    I am passionate about technology, problem-solving, and continuous learning, with a strong interest
+                    in
+                    AI, Machine Learning, and Full Stack Development.
+                    Along with my academic learning, I actively build projects and improve my technical skills through
+                    hands-on practice.
+                    I have foundational knowledge in frontend development using HTML, CSS, and JavaScript, and I also
+                    work
+                    with Python, C, and Arduino.
+                    I enjoy participating in hackathons, technical events, and collaborative projects that help me gain
+                    practical experience and grow as a developer.
+                    Beyond technology, I enjoy reading, writing, chess, football, music, and films.
+                    I believe in learning with intent, building with consistency, and growing with purpose.
 
-            </p>
-            <a>
-                <button>Click here</button>
-            </a>
+                </p>
+                <div class="info-links">
+                    <a class="nav-icons" href="https://www.facebook.com" target="_blank">
+                        <button>Facebook</button>
+                    </a>
+                <a class="nav-icons" href="https://www.youtube.com" target="_blank">
+                    <button>Click here</button>
+                </a>
+                <a class="nav-icons" href="https://www.linkedin.com" target="_blank">
+                    <button>LinkedIn</button>
+                </a>
+                <a class="nav-icons" href="https://www.github.com" target="_blank">
+                    <button>GitHub</button>
+                </a>
+                </div>
+                <div class="info-photos">
+                    <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Picture" class="photos">
+                    <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Picture" class="photos">
+                    <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Picture" class="photos">
+                    <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Picture" class="photos">
+                </div>
+            </div>
         </div>
     </div>
+<div id="projects" class="tab">
+
+    <div class="projects-page">
+
+        <h1>Projects</h1>
+
+        <div class="project-card">
+            <h2>Jarvis AI Assistant</h2>
+            <p>Voice assistant built using Python.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>Portfolio Website</h2>
+            <p>Responsive portfolio made using HTML CSS JS.</p>
+        </div>
+
+    </div>
+
+</div>
     <script src="script.js"></script>
 </body>
 
