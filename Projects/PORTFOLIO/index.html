@@ -12,9 +12,9 @@
 
 <body>
     <!-- LOADER -->
-    <!-- <div id="loading-screen">
+    <div id="loading-screen">
         <h1 class="loader-text">AAQ</h1>
-    </div> -->
+    </div>
     <!-- Navigation bar -->
     <header>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank">
@@ -25,7 +25,7 @@
                 <li class="nav-icons"><a href="#" onclick="showTab('Home')" class="active">Home</a></li>
                 <li class="nav-icons"><a href="#" onclick="showTab('projects')">Projects</a></li>
                 <li class="nav-icons"><a href="#" onclick="showTab('skills')">Skills</a></li>
-                <li class="nav-icons"><a href="#" onclick="showTab('contact')">Contact</a></li>
+                <li class="nav-icons"><a href="#" onclick="openPopup()">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -37,6 +37,15 @@
             </div>
         </main>
         <div class="home-info">
+            <!-- <div class="projects-hero">
+
+                <div class="projects-line"></div>
+
+                <h1>
+                    <span>Home Page</span>
+                </h1>
+
+            </div> -->
             <div class="main-section">
                 <span><strong>Hey &#128075;</strong></span>
                 <div><strong>My name is Abdul Ahad Quraishi</strong></div>
@@ -57,18 +66,14 @@
                     I believe in learning with intent, building with consistency, and growing with purpose.
                 </p>
                 <div class="social-links">
-                    <a class="nav-icons" href="https://www.facebook.com" target="_blank">
-                        <button>Facebook</button>
-                    </a>
-                    <a class="nav-icons" href="https://www.youtube.com" target="_blank">
-                        <button>Click here</button>
-                    </a>
-                    <a class="nav-icons" href="https://www.linkedin.com" target="_blank">
-                        <button>LinkedIn</button>
-                    </a>
-                    <a class="nav-icons" href="https://www.github.com" target="_blank">
-                        <button>GitHub</button>
-                    </a>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abdul-ahad-quraishi-726914385/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/abdulahadq4033-alt" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/a_normal_man_96/?hl=en" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
                 </div>
                 <div class="info-photos">
                     <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Picture" class="photos">
@@ -137,37 +142,241 @@
         </div>
     </div>
     </div>
+    <!-- PROJECTS TAB -->
     <div id="projects" class="tab">
-        <div class="projects-page">
-            <h1>Projects</h1>
+
+        <div class="projects-hero">
+
+            <div class="projects-line"></div>
+
+            <h1>PROJECTS</h1>
+
+            <p>
+                A collection of projects showcasing my frontend development,
+                creative problem solving, and continuous learning journey.
+            </p>
+
+        </div>
+
+        <div class="projects-container">
+
             <div class="project-card">
-                <h2>Jarvis AI Assistant</h2>
-                <p>Voice assistant built using Python.</p>
+
+                <img src="photos/Image-1.png" alt="Project Image">
+
+                <div class="project-content">
+
+                    <h2>Jarvis AI Assistant</h2>
+
+                    <p>
+                        Voice-controlled AI assistant built using Python with
+                        speech recognition and automation features.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>AI</span>
+                        <span>Automation</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="photos/Image-1.png" alt="Project Image">
+
+                <div class="project-content">
+
+                    <h2>Weather App</h2>
+
+                    <p>
+                        Responsive weather dashboard using APIs and dynamic
+                        frontend rendering.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+
+                    </div>
+
+                </div>
+
             </div>
             <div class="project-card">
-                <h2>Portfolio Website</h2>
-                <p>Responsive portfolio made using HTML CSS JS.</p>
+                <img src="photos/Image-1.png" alt="Project Image">
+                <div class="project-content">
+                    <h2>To-Do Application</h2>
+                    <p>
+                        Interactive productivity app with task management and
+                        responsive design.
+                    </p>
+                    <div class="project-tech">
+                        <span>Frontend</span>
+                        <span>UI Design</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+                        <a href="#" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- SKILLS TAB -->
     <div id="skills" class="tab">
-        <div class="skills-page">
-            <h1>Skills</h1>
-            <ul>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>HTML/CSS</li>
-                <li>C Programming</li>
-                <li>Arduino</li>
-            </ul>
+
+        <div class="projects-hero">
+
+            <div class="projects-line"></div>
+
+            <h1>SKILLS</h1>
+
+            <p>
+                A collection of skills showcasing my technical expertise,
+                creative problem solving, and continuous learning journey.
+            </p>
+
+        </div>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <img src="photos/Image-1.png" alt="Project Image">
+
+                <div class="project-content">
+
+                    <h2>Jarvis AI Assistant</h2>
+
+                    <p>
+                        Voice-controlled AI assistant built using Python with
+                        speech recognition and automation features.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>AI</span>
+                        <span>Automation</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="photos/Image-1.png" alt="Project Image">
+
+                <div class="project-content">
+
+                    <h2>Weather App</h2>
+
+                    <p>
+                        Responsive weather dashboard using APIs and dynamic
+                        frontend rendering.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="#" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+
+                        <a href="#" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="project-card">
+                <img src="photos/Image-1.png" alt="Project Image">
+                <div class="project-content">
+                    <h2>To-Do Application</h2>
+                    <p>
+                        Interactive productivity app with task management and
+                        responsive design.
+                    </p>
+                    <div class="project-tech">
+                        <span>Frontend</span>
+                        <span>UI Design</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="#" target="_blank">
+                            <button>Live Demo</button>
+                        </a>
+                        <a href="#" target="_blank">
+                            <button>GitHub</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="contact" class="tab">
-        <div class="contact-page">
-            <h1>Contact</h1>
-            <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+    <!-- CONTACT POPUP -->
+    <div id="contact-popup" class="popup">
+        <div class="popup-content">
+            <button class="close-popup">&times;</button>
+            <p>Email: abdulahad4033@gmail.com</p>
+            <p>Phone: +91 ##########</p>
+
         </div>
+
     </div>
+    <!-- FOOTER -->
     <footer>
         <div class="footer-content">
 
