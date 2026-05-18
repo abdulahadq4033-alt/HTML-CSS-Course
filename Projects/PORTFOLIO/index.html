@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="banner.jpg" type="image/x-icon">
     <title>Student Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
     <!-- LOADER -->
-    <div id="loading-screen">
+    <!-- <div id="loading-screen">
         <h1 class="loader-text">AAQ</h1>
-    </div>
+    </div> -->
     <!-- Navigation bar -->
     <header>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank">
@@ -21,7 +22,7 @@
         </a>
         <nav class="navigationbar">
             <ul>
-                <li class="nav-icons"><a href="#" onclick="showTab('Home')" class="active" >Home</a></li>
+                <li class="nav-icons"><a href="#" onclick="showTab('Home')" class="active">Home</a></li>
                 <li class="nav-icons"><a href="#" onclick="showTab('projects')">Projects</a></li>
                 <li class="nav-icons"><a href="#" onclick="showTab('skills')">Skills</a></li>
                 <li class="nav-icons"><a href="#" onclick="showTab('contact')">Contact</a></li>
@@ -37,9 +38,9 @@
         </main>
         <div class="home-info">
             <div class="main-section">
-                <span>Hey &#128075;</span>
-                <div>My name is Abdul Ahad Quraishi</div>
-                <p>I am an 18-year-old Computer Science undergraduate specializing in Artificial Intelligence and
+                <span><strong>Hey &#128075;</strong></span>
+                <div><strong>My name is Abdul Ahad Quraishi</strong></div>
+                <p> I am an 18-year-old Computer Science undergraduate specializing in Artificial Intelligence and
                     Machine
                     Learning at Vidya Jyothi Institute of Technology.
                     I am passionate about technology, problem-solving, and continuous learning, with a strong interest
@@ -54,21 +55,20 @@
                     practical experience and grow as a developer.
                     Beyond technology, I enjoy reading, writing, chess, football, music, and films.
                     I believe in learning with intent, building with consistency, and growing with purpose.
-
                 </p>
-                <div class="info-links">
+                <div class="social-links">
                     <a class="nav-icons" href="https://www.facebook.com" target="_blank">
                         <button>Facebook</button>
                     </a>
-                <a class="nav-icons" href="https://www.youtube.com" target="_blank">
-                    <button>Click here</button>
-                </a>
-                <a class="nav-icons" href="https://www.linkedin.com" target="_blank">
-                    <button>LinkedIn</button>
-                </a>
-                <a class="nav-icons" href="https://www.github.com" target="_blank">
-                    <button>GitHub</button>
-                </a>
+                    <a class="nav-icons" href="https://www.youtube.com" target="_blank">
+                        <button>Click here</button>
+                    </a>
+                    <a class="nav-icons" href="https://www.linkedin.com" target="_blank">
+                        <button>LinkedIn</button>
+                    </a>
+                    <a class="nav-icons" href="https://www.github.com" target="_blank">
+                        <button>GitHub</button>
+                    </a>
                 </div>
                 <div class="info-photos">
                     <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Picture" class="photos">
@@ -78,26 +78,139 @@
                 </div>
             </div>
         </div>
-    </div>
-<div id="projects" class="tab">
+        <div class="recent-achievements">
+            <h2>Recent Achievements</h2>
+            <p class="section-text">
+                A little line about what’s being said and who’s saying it.
+            </p>
+            <div class="Cards">
+                <div class="achievement-card">
+                    <div class="achievement-top">
+                        <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Achievement">
+                        <div class="achievement-info">
+                            <h3>Google Summer of Code</h3>
+                            <span>Open Source Contributor</span>
+                        </div>
+                    </div>
+                    <p>
+                        Selected for Google Summer of Code 2025 and contributed to a real-world open-source project.
+                    </p>
+                </div>
+                <div class="achievement-card">
 
-    <div class="projects-page">
-
-        <h1>Projects</h1>
-
-        <div class="project-card">
-            <h2>Jarvis AI Assistant</h2>
-            <p>Voice assistant built using Python.</p>
+                    <div class="achievement-top">
+                        <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Achievement">
+                        <div class="achievement-info">
+                            <h3>Hackathon Winner</h3>
+                            <span>AI Innovation Challenge</span>
+                        </div>
+                    </div>
+                    <p>
+                        Built an AI-powered application that secured first place in a university hackathon.
+                    </p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-top">
+                        <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Achievement">
+                        <div class="achievement-info">
+                            <h3>Research Publication</h3>
+                            <span>Machine Learning Journal</span>
+                        </div>
+                    </div>
+                    <p>
+                        Co-authored a research paper focused on machine learning optimization techniques.
+                    </p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-top">
+                        <img src="photos/WhatsApp Image 2026-05-16 at 6.00.15 PM.jpeg" alt="Achievement">
+                        <div class="achievement-info">
+                            <h3>Open Source Projects</h3>
+                            <span>GitHub Contributions</span>
+                        </div>
+                    </div>
+                    <p>
+                        Contributed fixes, UI improvements, and features to multiple open-source repositories.
+                    </p>
+                </div>
+            </div>
         </div>
-
-        <div class="project-card">
-            <h2>Portfolio Website</h2>
-            <p>Responsive portfolio made using HTML CSS JS.</p>
-        </div>
-
     </div>
+    </div>
+    <div id="projects" class="tab">
+        <div class="projects-page">
+            <h1>Projects</h1>
+            <div class="project-card">
+                <h2>Jarvis AI Assistant</h2>
+                <p>Voice assistant built using Python.</p>
+            </div>
+            <div class="project-card">
+                <h2>Portfolio Website</h2>
+                <p>Responsive portfolio made using HTML CSS JS.</p>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="tab">
+        <div class="skills-page">
+            <h1>Skills</h1>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>C Programming</li>
+                <li>Arduino</li>
+            </ul>
+        </div>
+    </div>
+    <div id="contact" class="tab">
+        <div class="contact-page">
+            <h1>Contact</h1>
+            <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
 
-</div>
+            <div class="footer-brand">
+                <h2>Abdul Ahad Q’s<br>Student Portfolio</h2>
+                <p>
+                    Building innovative projects and learning modern technology
+                    with passion and consistency.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Platform</h3>
+                <a href="#">Individuals</a>
+                <a href="#">Teams</a>
+                <a href="#">Admins</a>
+                <a href="#">Developers</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Features</h3>
+                <a href="#">Core features</a>
+                <a href="#">Pro experience</a>
+                <a href="#">Integrations</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Learn more</h3>
+                <a href="#">Blog</a>
+                <a href="#">Case studies</a>
+                <a href="#">Customer stories</a>
+                <a href="#">Best practices</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Support</h3>
+                <a href="#">Contact</a>
+                <a href="#">Support</a>
+                <a href="#">Legal</a>
+            </div>
+
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
