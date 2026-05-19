@@ -1,4 +1,4 @@
-const forecastApiKey = "96a710d56fd357c17c22b5fdc306a11e";
+const forecastApiKey = "<YOUR API KEY>";
 
 async function getForecast(city){
 
