@@ -1,1 +1,0 @@
-alert("My Personal Portfolio")
